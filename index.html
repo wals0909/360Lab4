@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lab 4</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+	<link rel="shortcut icon" href="../img/star.png" type="image/png">
+	
+	<!-- Bootstrap CDN down below --> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+</head>
+<body>
+
+	<!-- Navbar --> 
+	<form>
+	<nav class="navbar navbar-default navbar-fixed-top"> 
+		<div class="container">
+			<div class="collapse navbar-collapse" id="bs-nav-demo"> 
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Bio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+							
+		</div>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="fa fa-camera-retro"></i> Gallary</h1>
+			<p>Fb, Instagram, etc down below. </p>
+		</div>
+</form>
+<div class="container gallery-container">
+
+    <h1>Bootstrap Grid</h1>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/park.jpg">
+                    <img src="../images/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/bridge.jpg">
+                    <img src="../images/bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../images/tunnel.jpg">
+                    <img src="../images/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/coast.jpg">
+                    <img src="../images/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/rails.jpg">
+                    <img src="../images/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/traffic.jpg">
+                    <img src="../images/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/rocks.jpg">
+                    <img src="../images/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/benches.jpg">
+                    <img src="../images/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/sky.jpg">
+                    <img src="../images/sky.jpg" alt="Sky">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+
+<footer class="myFooter " id="footer-wrapper" style="text-align: center;>
+<div class="footer-icons" >
+
+
+      <a href="https://www.pinterest.com/" class="generic-anchor fa-4x   "  target="_blank"> <i class="fa fa-pinterest "></i></a>
+      <a href="https://www.facebook.com/" class="generic-anchor fa-4x" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/" class="generic-anchor fa-4x" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="http://instagram.com/" class="generic-anchor fa-4x" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/" class="generic-anchor fa-4x" target="_blank"><i class="fa fa-youtube"></i></a>
+      <a href="https://plus.google.com/" class="generic-anchor fa-4x" target="_blank" ><i class="fa fa-google-plus"></i></a>
+      </div>
+  </section>
+</footer>
+
+
+</html>
